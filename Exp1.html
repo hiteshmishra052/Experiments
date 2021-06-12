@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exp 1</title>
+    <style>
+        .body{
+            display: flex;
+            flex-direction:column
+        }
+        .navbar {
+            background-color: blueviolet;
+            border-radius: 20px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            list-style: none;
+            float: left;
+            margin: 10px 10px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover {
+            color: rgb(201, 24, 24);
+        }
+        .search{
+            float: right;
+            padding: 10px 16px;
+            color: black;
+        }
+        .navbar input{
+            border:1px solid black;
+            border-radius: 11px;
+            padding: 3px;
+            width: 200px;
+        }
+        .container{
+            background-color: #a28aedb3;
+            margin: 34px auto;
+            padding: 34px;
+            width: 666px;
+            color: white;
+            width: auto;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: blueviolet;
+        }
+        a:active{
+        background-color: rgb(72, 214, 72);
+        }
+        .but1{
+            background-color: rgb(165 43 217 / 95%);
+            padding: 10px;
+            border-radius: 14px;
+            border: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+        }
+        .but1:hover{
+            background-color: rgb(183, 93, 211);
+        }
+        body{
+            background-repeat: no-repeat;
+            background-size:cover;
+
+        }
+
+    </style>
+</head>
+<center><body background="https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500"   >
+    
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Services</a> </li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="search">
+                     <input type="search" class="search" id="search" placeholder=" search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, consequatur eligendi similique error officia natus asperiores perferendis, molestiae fugiat quas incidunt. Reprehenderit corrupti repellendus dolor quaerat, modi, ipsa alias earum, voluptatum adipisci ducimus maiores!</p>
+        <a href="http://127.0.0.1:5500/EXPERIMENTS/Exp2.html" class="but1" target="#">Sign Up</a>
+        <button class="but1">Sign In</button>
+    </div>
+    
+    
+</body></center>
+
+</html>
